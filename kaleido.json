@@ -1,0 +1,515 @@
+
+{
+  "dbedb466-0b21-4d82-b7e3-3849206d8ef5": {
+    "desc": "applovin-client handle.",
+    "host": [
+      "https://a.applovin.com",
+      "http://a.applovin.com"
+    ],
+    "method": "get",
+    "action": {
+      "check_hostname": true,
+      "fix_same_param": false,
+      "request_header": true,
+      "request_cookie": true,
+      "response_header": true,
+      "response_cookie": true
+    },
+    "request_handle": {
+      "full_url": {
+        "https?:\\/\\/a.applovin.com": "http://2c6c41533a0b424c9d2aaaaef44b081e-cn-beijing.alicloudapi.com"
+      },
+      "url_param": {},
+      "form_param": {},
+      "cookie": {},
+      "header": {
+        "X-Forwarded-For": "221.180.236.148, 221.180.236.148",
+        "Cookie": null,
+        "Host": null
+      },
+      "body": {},
+      "body_patch": {}
+    },
+    "response_handle": {
+      "cookie": {},
+      "header": {
+        "Connection": null,
+        "Status-Line": null,
+        "Transfer-Encoding": null,
+        "Content-Length": null
+      },
+      "body": {},
+      "body_patch": {
+        "video": "https:\/\/httpbin.org\/put",
+        "close_delay_graphic": 1
+      }
+    }
+  },
+  "efe1cb00-7db6-42f4-b74e-486ba21504da": {
+    "desc": "sohu_video-web handle.",
+    "host": [
+      "https://m.aty.sohu.com",
+      "http://m.aty.sohu.com"
+    ],
+    "method": "get",
+    "action": {
+      "check_hostname": true,
+      "fix_same_param": false,
+      "request_header": true,
+      "request_cookie": true,
+      "response_header": true,
+      "response_cookie": true
+    },
+    "request_handle": {
+      "full_url": {},
+      "url_param": {
+        "pt": null
+      },
+      "form_param": {},
+      "cookie": {},
+      "header": {
+        "Cookie": null,
+        "Host": null,
+        "Accept-Encoding": null
+      },
+      "body": {},
+      "body_patch": {}
+    },
+    "response_handle": {
+      "cookie": {},
+      "header": {
+        "Connection": null,
+        "Status-Line": null,
+        "Transfer-Encoding": null,
+        "Content-Length": null
+      },
+      "body": {},
+      "body_patch": {}
+    }
+  },
+  "b8e16d54-9c47-4264-9149-dbe25c212f67": {
+    "desc": "youku_video-client handle.",
+    "host": [
+      "https://ups.youku.com",
+      "http://ups.youku.com"
+    ],
+    "method": "get",
+    "action": {
+      "check_hostname": true,
+      "fix_same_param": false,
+      "request_header": true,
+      "request_cookie": true,
+      "response_header": true,
+      "response_cookie": true
+    },
+    "request_handle": {
+      "full_url": {},
+      "url_param": {
+        "needad": "0"
+      },
+      "form_param": {},
+      "cookie": {},
+      "header": {
+        "X-Forwarded-For": "221.180.236.148, 221.180.236.148",
+        "Cookie": null,
+        "Host": null
+      },
+      "body": {},
+      "body_patch": {}
+    },
+    "response_handle": {
+      "cookie": {},
+      "header": {
+        "Connection": null,
+        "Status-Line": null,
+        "Transfer-Encoding": null,
+        "Content-Length": null
+      },
+      "body": {},
+      "body_patch": {
+        "data": {
+          "ad": null
+        }
+      }
+    }
+  },
+  "8ded7565-0625-46ce-a50e-a181434e2df0": {
+    "desc": "tencent_video-web handle.",
+    "host": [
+      "https://livew.l.qq.com",
+      "http://livew.l.qq.com"
+    ],
+    "method": "get",
+    "action": {
+      "check_hostname": true,
+      "fix_same_param": false,
+      "request_header": true,
+      "request_cookie": true,
+      "response_header": true,
+      "response_cookie": true
+    },
+    "request_handle": {
+      "full_url": {
+        "https?:\\/\\/livew.l.qq.com": "http://2c6c41533a0b424c9d2aaaaef44b081e-cn-beijing.alicloudapi.com"
+      },
+      "url_param": {},
+      "form_param": {},
+      "cookie": {},
+      "header": {
+        "X-Forwarded-For": "221.180.236.148, 221.180.236.148",
+        "Cookie": null,
+        "Host": null,
+        "Accept-Encoding": null
+      },
+      "body": {},
+      "body_patch": {}
+    },
+    "response_handle": {
+      "cookie": {},
+      "header": {
+        "Access-Control-Allow-Origin": "*",
+        "Connection": null,
+        "Status-Line": null,
+        "Transfer-Encoding": null,
+        "Content-Length": null
+      },
+      "body": {
+        "\"item\"": "\"item_del\""
+      },
+      "body_patch": {}
+    }
+  },
+  "3cb3af55-12c3-45ea-9c80-e9f828dbe80e": {
+    "desc": "youku_video-web handle.",
+    "host": [
+      "https://pl-ali.youku.com",
+      "http://pl-ali.youku.com"
+    ],
+    "method": "get",
+    "action": {
+      "check_hostname": true,
+      "fix_same_param": false,
+      "request_header": true,
+      "request_cookie": true,
+      "response_header": true,
+      "response_cookie": true
+    },
+    "request_handle": {
+      "full_url": {},
+      "url_param": {},
+      "form_param": {},
+      "cookie": {},
+      "header": {
+        "Cookie": null,
+        "Host": null,
+        "Accept-Encoding": null,
+        "X-Forwarded-For": "221.180.236.148, 221.180.236.148"
+      },
+      "body": {},
+      "body_patch": {}
+    },
+    "response_handle": {
+      "cookie": {},
+      "header": {
+        "Connection": null,
+        "Status-Line": null,
+        "Transfer-Encoding": null,
+        "Content-Length": null
+      },
+      "body": {
+        "http:\\/\\/\\d+\\..*?\\/\\w+\\/[0-9A-F\\-]+\\.mp4\\.ts.*?duration\\=[0-9]{2}\\&.*": ""
+      },
+      "body_patch": {}
+    }
+  },
+  "de28aa62-4727-4f80-902e-4d85783d97c8": {
+    "desc": "iqiyi_video-web handle.",
+    "host": [
+      "https://cache.m.iqiyi.com",
+      "http://cache.m.iqiyi.com"
+    ],
+    "method": "get",
+    "action": {
+      "check_hostname": true,
+      "fix_same_param": true,
+      "request_header": true,
+      "request_cookie": true,
+      "response_header": true,
+      "response_cookie": true
+    },
+    "request_handle": {
+      "full_url": {},
+      "url_param": {},
+      "form_param": {},
+      "cookie": {},
+      "header": {
+        "Cookie": null,
+        "Host": null,
+        "Accept-Encoding": null
+      },
+      "body": {},
+      "body_patch": {}
+    },
+    "response_handle": {
+      "cookie": {},
+      "header": {
+        "Content-Type": "text/plain",
+        "Connection": null,
+        "Content-Encoding": null,
+        "Status-Line": null,
+        "Transfer-Encoding": null,
+        "Content-Length": null
+      },
+      "body": {
+        "http:\\/\\/data.video.(i)?qiyi.com\\/videos\\/other\\/.*": ""
+      },
+      "body_patch": {}
+    }
+  },
+  "6d0b4122-89af-4a7f-9d99-76c967882c8a": {
+    "desc": "paw client get_empty_tests.",
+    "host": "https:\\/\\/httpbin.org",
+    "method": [
+      "get",
+      "post"
+    ],
+    "action": {
+      "check_hostname": true,
+      "fix_same_param": false,
+      "request_cookie": false,
+      "request_header": false,
+      "response_header": false,
+      "response_cookie": false
+    },
+    "request_handle": {
+      "full_url": {},
+      "url_param": {},
+      "cookie": {},
+      "header": {}
+    },
+    "response_handle": {
+      "cookie": {},
+      "header": {},
+      "body": {},
+      "body_patch": {}
+    }
+  },
+  "5dab080d-1c98-4779-94f3-b9869b64fbd9": {
+    "desc": "paw client get_encoded_tests.",
+    "host": "https:\\/\\/httpbin.org",
+    "method": "get",
+    "action": {
+      "check_hostname": true,
+      "fix_same_param": false,
+      "request_cookie": true,
+      "request_header": true,
+      "response_header": true,
+      "response_cookie": true
+    },
+    "request_handle": {
+      "full_url": {
+        "\\/delete": "/modify",
+        "\\/modify": "/delete"
+      },
+      "url_param": {
+        "deleteKaleidoClientParam": null,
+        "modifyKaleidoClientParam": "modify_before",
+        "addedKaleidoServerParam": "added_param"
+      },
+      "cookie": {
+        "deleteKaleidoClientCookie": null,
+        "modifyKaleidoClientCookie": "modify_before",
+        "addedKaleidoServerCookie": "added_cookie"
+      },
+      "header": {
+        "Deletekaleidoclientheader": null,
+        "Modifykaleidoclientheader": "modify_before",
+        "AddedKaleidoServerHeader": "added_header",
+        "Host": null,
+        "Cookie": null
+      }
+    },
+    "response_handle": {
+      "cookie": {
+        "addKaleidoResponseCookie": "added_response"
+      },
+      "header": {
+        "addKaleidoResponseHeader": "added_response",
+        "Content-Length": null,
+        "Status-Line": null
+      },
+      "body": {
+        "args": "before_args"
+      },
+      "body_patch": {
+        "json": [
+          "success",
+          "patch_before"
+        ]
+      }
+    }
+  },
+  "f48b11f3-02b3-49e5-ba5e-7f625f30105e": {
+    "desc": "paw client post_empty_tests.",
+    "host": "https:\\/\\/httpbin.org",
+    "method": "post",
+    "action": {
+      "check_hostname": true,
+      "fix_same_param": false,
+      "request_header": false,
+      "request_cookie": false,
+      "response_header": false,
+      "response_cookie": false
+    },
+    "request_handle": {
+      "full_url": {},
+      "url_param": {},
+      "form_param": {},
+      "cookie": {},
+      "header": {},
+      "body": {},
+      "body_patch": {}
+    },
+    "response_handle": {
+      "cookie": {},
+      "header": {},
+      "body": {},
+      "body_patch": {}
+    }
+  },
+  "fd1bd8d8-bfd8-4518-936a-ec3612951807": {
+    "desc": "paw client post_json_tests.",
+    "host": "https:\\/\\/httpbin.org",
+    "method": "post",
+    "action": {
+      "check_hostname": true,
+      "fix_same_param": false,
+      "request_header": true,
+      "request_cookie": true,
+      "response_header": true,
+      "response_cookie": true
+    },
+    "request_handle": {
+      "full_url": {
+        "\\/delete": "/modify",
+        "\\/modify": "/delete"
+      },
+      "url_param": {
+        "deleteKaleidoClientParam": null,
+        "modifyKaleidoClientParam": "modify_before",
+        "addedKaleidoServerParam": "added_param"
+      },
+      "form_param": {
+        "deleteKaleidoClientBody": null,
+        "modifyKaleidoClientBody": "modify_before",
+        "addedKaleidoServerBody": "added_from"
+      },
+      "cookie": {
+        "deleteKaleidoClientCookie": null,
+        "modifyKaleidoClientCookie": "modify_before",
+        "addedKaleidoServerCookie": "added_cookie"
+      },
+      "header": {
+        "Deletekaleidoclientheader": null,
+        "Modifykaleidoclientheader": "modify_before",
+        "AddedKaleidoServerHeader": "added_header",
+        "Host": null,
+        "Cookie": null,
+        "Content-Type": "application/json"
+      },
+      "body": {
+        "deleteKaleidoClientBody": null,
+        "modifyKaleidoClientBody": "modify_before"
+      },
+      "body_patch": {
+        "AddedKaleidoServerPatch": "added_patch"
+      }
+    },
+    "response_handle": {
+      "cookie": {
+        "addKaleidoResponseCookie": "added_response"
+      },
+      "header": {
+        "addKaleidoResponseHeader": "added_response",
+        "Content-Length": null,
+        "Status-Line": null
+      },
+      "body": {
+        "args": "before_args"
+      },
+      "body_patch": {
+        "json": [
+          "success",
+          "patch_before"
+        ]
+      }
+    }
+  },
+  "7dab080d-1c98-4779-94f3-b9869b64fbd9": {
+    "desc": "paw client post_encoded_tests.",
+    "host": "https:\\/\\/httpbin.org",
+    "method": "post",
+    "action": {
+      "check_hostname": true,
+      "fix_same_param": false,
+      "request_header": true,
+      "request_cookie": true,
+      "response_header": true,
+      "response_cookie": true
+    },
+    "request_handle": {
+      "full_url": {
+        "\\/delete": "/modify",
+        "\\/modify": "/delete"
+      },
+      "url_param": {
+        "deleteKaleidoClientParam": null,
+        "modifyKaleidoClientParam": "modify_before",
+        "addedKaleidoServerParam": "added_param"
+      },
+      "form_param": {
+        "deleteKaleidoClientBody": null,
+        "modifyKaleidoClientBody": "modify_before",
+        "addedKaleidoServerBody": "added_from"
+      },
+      "cookie": {
+        "deleteKaleidoClientCookie": null,
+        "modifyKaleidoClientCookie": "modify_before",
+        "addedKaleidoServerCookie": "added_cookie"
+      },
+      "header": {
+        "Deletekaleidoclientheader": null,
+        "Modifykaleidoclientheader": "modify_before",
+        "AddedKaleidoServerHeader": "added_header",
+        "Host": null,
+        "Cookie": null
+      },
+      "body": {
+        "deleteKaleidoClientBody": null,
+        "modifyKaleidoClientBody": "modify_before"
+      },
+      "body_patch": {
+        "AddedKaleidoServerPatch": "added_patch"
+      }
+    },
+    "response_handle": {
+      "cookie": {
+        "addKaleidoResponseCookie": "added_response"
+      },
+      "header": {
+        "addKaleidoResponseHeader": "added_response",
+        "Content-Length": null,
+        "Status-Line": null
+      },
+      "body": {
+        "args": "before_args"
+      },
+      "body_patch": {
+        "json": [
+          "success",
+          "patch_before"
+        ]
+      }
+    }
+  }
+}
