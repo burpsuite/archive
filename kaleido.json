@@ -1,4 +1,3 @@
-
 {
   "dbedb466-0b21-4d82-b7e3-3849206d8ef5": {
     "desc": "applovin-client handle.",
@@ -40,7 +39,7 @@
       },
       "body": {},
       "body_patch": {
-        "video": "https:\/\/httpbin.org\/put",
+        "video": "https://httpbin.org/put",
         "close_delay_graphic": 1
       }
     }
@@ -130,7 +129,21 @@
       "body": {},
       "body_patch": {
         "data": {
-          "ad": null
+          "ad": null,
+          "ups": {
+            "ups_client_netip": "221.180.236.148"
+          },
+          "vip": {
+            "hd3": true,
+            "vipDownload": true,
+            "dolby": true
+          },
+          "user": {
+            "ip": "221.180.236.148"
+          },
+          "network": {
+            "country_code": "CN"
+          }
         }
       }
     }
