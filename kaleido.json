@@ -22,7 +22,7 @@
       "form_param": {},
       "cookie": {},
       "header": {
-        "X-Forwarded-For": "221.180.236.148, 221.180.236.148",
+        "X-Forwarded-For": "60.30.20.10, 60.30.20.11",
         "Cookie": null,
         "Host": null
       },
@@ -111,7 +111,7 @@
       "form_param": {},
       "cookie": {},
       "header": {
-        "X-Forwarded-For": "221.180.236.148, 221.180.236.148",
+        "X-Forwarded-For": "60.30.20.10, 60.30.20.11",
         "Cookie": null,
         "Host": null
       },
@@ -131,7 +131,7 @@
         "data": {
           "ad": null,
           "ups": {
-            "ups_client_netip": "221.180.236.148"
+            "ups_client_netip": "60.30.20.10"
           },
           "vip": {
             "hd3": true,
@@ -139,7 +139,7 @@
             "dolby": true
           },
           "user": {
-            "ip": "221.180.236.148"
+            "ip": "60.30.20.10"
           },
           "network": {
             "country_code": "CN"
@@ -171,7 +171,7 @@
       "form_param": {},
       "cookie": {},
       "header": {
-        "X-Forwarded-For": "221.180.236.148, 221.180.236.148",
+        "X-Forwarded-For": "60.30.20.10, 60.30.20.11",
         "Cookie": null,
         "Host": null,
         "Accept-Encoding": null
@@ -218,7 +218,7 @@
         "Cookie": null,
         "Host": null,
         "Accept-Encoding": null,
-        "X-Forwarded-For": "221.180.236.148, 221.180.236.148"
+        "X-Forwarded-For": "60.30.20.10, 60.30.20.11"
       },
       "body": {},
       "body_patch": {}
