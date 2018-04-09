@@ -103,7 +103,7 @@
     },
     "request_handle": {
       "full_url": {
-        "https?:\\/\\/ups.youku.com": "https://service.au.apiconnect.ibmcloud.com/gws/apigateway/api/a62ae5d39051a5e2b69d17438213d6a05fcdb5e9522357231ec16874bf8eeae3/2c6fc87a-6e22-482c-8888-80c6c178cfbf"
+        "https?:\\/\\/ups.youku.com": "http://service-hk1ysj1l-1251193060.ap-beijing.apigateway.myqcloud.com/release"
       },
       "url_param": {
         "needad": "0"
