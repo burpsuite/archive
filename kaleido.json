@@ -1,4 +1,52 @@
 {
+  
+  
+  "bfab1f8e-5a54-4817-aa19-1cad3371ecdf": {
+    "desc": "iqiyi_desktop adblock.",
+    "host": [
+      "https://t7z.cupid.iqiyi.com",
+      "http://t7z.cupid.iqiyi.com"
+    ],
+    "method": "get",
+    "action": {
+      "check_hostname": true,
+      "fix_same_param": true,
+      "request_header": true,
+      "request_cookie": true,
+      "response_header": true,
+      "response_cookie": true
+    },
+    "request_handle": {
+      "full_url": {},
+      "url_param": {},
+      "form_param": {},
+      "cookie": {},
+      "header": {
+        "X-Forwarded-For": "60.30.20.10, 60.30.20.11",
+        "Cookie": null,
+        "Host": null
+      },
+      "body": {},
+      "body_patch": {}
+    },
+    "response_handle": {
+      "cookie": {},
+      "header": {
+        "Connection": null,
+        "Status-Line": null,
+        "Transfer-Encoding": null,
+        "Content-Length": null
+      },
+      "body": {
+        "(\"duration\":\")\\d+(\")": "$10$3"
+      },
+      "body_patch": {}
+    }
+  },
+  
+  
+  
+  
   "dbedb466-0b21-4d82-b7e3-3849206d8ef5": {
     "desc": "applovin-client handle.",
     "host": [
