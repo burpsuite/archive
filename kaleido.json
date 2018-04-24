@@ -38,7 +38,7 @@
         "Content-Length": null
       },
       "body": {
-        "(\"duration\":\")\\d+(\")": "$10$3"
+        "(\"duration\":)\"\\d+(\")": "$1\"0$3"
       },
       "body_patch": {}
     }
