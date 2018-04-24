@@ -219,7 +219,9 @@
         "Transfer-Encoding": null,
         "Content-Length": null
       },
-      "body": {},
+      "body": {
+        "ad:\\{": "del_ad:\\{"
+      },
       "body_patch": {
         "data": {
           "ad": null,
