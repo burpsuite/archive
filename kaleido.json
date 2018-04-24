@@ -10,7 +10,7 @@
     "method": "get",
     "action": {
       "check_hostname": true,
-      "fix_same_param": false,
+      "fix_same_param": true,
       "request_header": true,
       "request_cookie": true,
       "response_header": true,
