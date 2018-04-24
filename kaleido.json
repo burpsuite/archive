@@ -40,7 +40,7 @@
         "Content-Length": null
       },
       "body": {
-        "ad:\\{": "del_ad:\\{"
+        "\"ad\":\\{": "\"del_ad\":\\{"
       },
       "body_patch": {}
     }
@@ -220,7 +220,7 @@
         "Content-Length": null
       },
       "body": {
-        "ad:\\{": "del_ad:\\{"
+        "\"ad\":\\{": "\"del_ad\":\\{"
       },
       "body_patch": {
         "data": {
