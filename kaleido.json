@@ -1,6 +1,51 @@
 {
   
   
+  "505398d5-733e-46b5-89b6-1aaa0c9a61a4": {
+    "desc": "youku_video-desktop handle.",
+    "host": [
+      "https://acs.youku.com",
+      "http://acs.youku.com"
+    ],
+    "method": "get",
+    "action": {
+      "check_hostname": true,
+      "fix_same_param": false,
+      "request_header": true,
+      "request_cookie": true,
+      "response_header": true,
+      "response_cookie": true
+    },
+    "request_handle": {
+      "full_url": {
+        "https?:\\/\\/acs.youku.com": "http://service-hk1ysj1l-1251193060.ap-beijing.apigateway.myqcloud.com/release"
+      },
+      "url_param": {},
+      "form_param": {},
+      "cookie": {},
+      "header": {
+        "X-Forwarded-For": "60.30.20.10, 60.30.20.11",
+        "Cookie": null,
+        "Host": null
+      },
+      "body": {},
+      "body_patch": {}
+    },
+    "response_handle": {
+      "cookie": {},
+      "header": {
+        "Connection": null,
+        "Status-Line": null,
+        "Transfer-Encoding": null,
+        "Content-Length": null
+      },
+      "body": {
+        "ad:\\{": "del_ad:\\{"
+      },
+      "body_patch": {}
+    }
+  },
+  
   "bfab1f8e-5a54-4817-aa19-1cad3371ecdf": {
     "desc": "iqiyi_desktop adblock.",
     "host": [
