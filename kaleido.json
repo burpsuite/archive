@@ -1,6 +1,52 @@
 {
   
   
+  "a1538c0b-de91-4580-a521-004d50345311": {
+    "desc": "xiami-desktop handle.",
+    "host": [
+      "https://h5api.m.xiami.com",
+      "http://h5api.m.xiami.com"
+    ],
+    "method": "get",
+    "action": {
+      "check_hostname": true,
+      "fix_same_param": true,
+      "request_header": true,
+      "request_cookie": true,
+      "response_header": true,
+      "response_cookie": true
+    },
+    "request_handle": {
+      "full_url": {},
+      "url_param": {},
+      "form_param": {},
+      "cookie": {},
+      "header": {
+        "X-Forwarded-For": "60.30.20.10, 60.30.20.11",
+        "Cookie": null,
+        "Host": null
+      },
+      "body": {},
+      "body_patch": {}
+    },
+    "response_handle": {
+      "cookie": {},
+      "header": {
+        "Connection": null,
+        "Status-Line": null,
+        "Transfer-Encoding": null,
+        "Content-Length": null
+      },
+      "body": {
+        "\"needPayFlag\":\\d+": "\"needPayFlag\":0",
+        "(\"needPay\":)\\w+": "$1false",
+        "(\"needVip\":)\\w+": "$1false",
+        "(\"isExist\":)\\w+": "$1true"
+      },
+      "body_patch": {}
+    }
+  },
+  
   "505398d5-733e-46b5-89b6-1aaa0c9a61a4": {
     "desc": "youku_video-desktop handle.",
     "host": [
