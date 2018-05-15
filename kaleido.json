@@ -9,7 +9,7 @@
     ],
     "method": "get",
     "action": {
-      "check_hostname": true,
+      "check_hostname": false,
       "fix_same_param": true,
       "request_header": true,
       "request_cookie": true,
