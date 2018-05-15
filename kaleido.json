@@ -369,6 +369,7 @@
     "response_handle": {
       "cookie": {},
       "header": {
+        "Access-Control-Allow-Origin": "*",
         "Connection": null,
         "Status-Line": null,
         "Transfer-Encoding": null,
