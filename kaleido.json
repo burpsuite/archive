@@ -7,7 +7,10 @@
       "https://h5api.m.xiami.com",
       "http://h5api.m.xiami.com"
     ],
-    "method": "get",
+    "method": [
+      "get", 
+      "post"
+    ],
     "action": {
       "check_hostname": false,
       "fix_same_param": true,
