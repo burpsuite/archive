@@ -1,5 +1,50 @@
 {
   
+  "e5b0a082-d3c0-413a-978b-cffdbb17b697": {
+    "desc": "tencent_music_desktop",
+    "host": [
+      "https://i.y.qq.com",
+      "http://i.y.qq.com"
+    ],
+    "method": [
+      "get", 
+      "post"
+    ],
+    "action": {
+      "check_hostname": false,
+      "fix_same_param": true,
+      "request_header": true,
+      "request_cookie": true,
+      "response_header": true,
+      "response_cookie": true
+    },
+    "request_handle": {
+      "full_url": {},
+      "url_param": {},
+      "form_param": {},
+      "cookie": {},
+      "header": {
+        "X-Forwarded-For": "60.30.20.10, 60.30.20.11",
+        "Cookie": null,
+        "Host": null
+      },
+      "body": {},
+      "body_patch": {}
+    },
+    "response_handle": {
+      "cookie": {},
+      "header": {
+        "Connection": null,
+        "Status-Line": null,
+        "Transfer-Encoding": null,
+        "Content-Length": null
+      },
+      "body": {
+        "\"status\":1": "\"status\":0"
+      },
+      "body_patch": {}
+    }
+  },
   
   "a1538c0b-de91-4580-a521-004d50345311": {
     "desc": "xiami-desktop handle.",
