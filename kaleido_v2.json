@@ -497,7 +497,7 @@
   },
   "6d0b4122-89af-4a7f-9d99-76c967882c8a": {
     "desc": "paw client get_empty_tests.",
-    "host": "https:\\/\\/httpbin.org",
+    "host": "https://httpbin.org",
     "method": [
       "get",
       "post"
@@ -528,7 +528,7 @@
   },
   "5dab080d-1c98-4779-94f3-b9869b64fbd9": {
     "desc": "paw client get_encoded_tests.",
-    "host": "https:\\/\\/httpbin.org",
+    "host": "https://httpbin.org",
     "method": "get",
     "control": {
       "check_hostname": true,
@@ -586,7 +586,7 @@
   },
   "f48b11f3-02b3-49e5-ba5e-7f625f30105e": {
     "desc": "paw client post_empty_tests.",
-    "host": "https:\\/\\/httpbin.org",
+    "host": "https://httpbin.org",
     "method": "post",
     "control": {
       "check_hostname": true,
@@ -617,7 +617,7 @@
   },
   "fd1bd8d8-bfd8-4518-936a-ec3612951807": {
     "desc": "paw client post_json_tests.",
-    "host": "https:\\/\\/httpbin.org",
+    "host": "https://httpbin.org",
     "method": "post",
     "control": {
       "check_hostname": true,
@@ -688,7 +688,7 @@
   },
   "7dab080d-1c98-4779-94f3-b9869b64fbd9": {
     "desc": "paw client post_encoded_tests.",
-    "host": "https:\\/\\/httpbin.org",
+    "host": "https://httpbin.org",
     "method": "post",
     "control": {
       "check_hostname": true,
