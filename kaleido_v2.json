@@ -1,6 +1,6 @@
 {
   "5b2fd91b554d7": {
-    "desc": "youku_video-desktop handle.",
+    "desc": "youku browser",
     "host": [
       "https://acs.youku.com",
       "http://acs.youku.com"
@@ -47,7 +47,7 @@
     }
   },
   "5b2fd9240870b": {
-    "desc": "iqiyi_desktop adblock.",
+    "desc": "iqiyi browser",
     "host": [
       "https://t7z.cupid.iqiyi.com",
       "http://t7z.cupid.iqiyi.com"
@@ -92,7 +92,7 @@
     }
   },
   "5b2fd9403a905": {
-    "desc": "sohu_video-web handle.",
+    "desc": "sohu browser",
     "host": [
       "https://m.aty.sohu.com",
       "http://m.aty.sohu.com"
@@ -137,7 +137,7 @@
     }
   },
   "5b2fd94dd1e50": {
-    "desc": "youku_video-client handle.",
+    "desc": "youku application",
     "host": [
       "https://ups.youku.com",
       "http://ups.youku.com"
@@ -204,7 +204,7 @@
     }
   },
   "5b2fd955f20a9": {
-    "desc": "tencent_video-web handle.",
+    "desc": "tencent browser",
     "host": [
       "https://livew.l.qq.com",
       "http://livew.l.qq.com"
@@ -253,7 +253,7 @@
     }
   },
   "5b2fd960942dd": {
-    "desc": "youku_video-web handle.",
+    "desc": "youku browser.",
     "host": [
       "https://pl-ali.youku.com",
       "http://pl-ali.youku.com"
@@ -300,7 +300,7 @@
     }
   },
   "5b2fd96c13bc4": {
-    "desc": "iqiyi_video-web handle.",
+    "desc": "iqiyi browser",
     "host": [
       "https://cache.m.iqiyi.com",
       "http://cache.m.iqiyi.com"
