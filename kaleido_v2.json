@@ -137,7 +137,7 @@
     }
   },
   "5b2fd94dd1e50": {
-    "desc": "youku application",
+    "desc": "youku app",
     "host": [
       "https://ups.youku.com",
       "http://ups.youku.com"
@@ -253,7 +253,7 @@
     }
   },
   "5b2fd960942dd": {
-    "desc": "youku browser.",
+    "desc": "youku browser",
     "host": [
       "https://pl-ali.youku.com",
       "http://pl-ali.youku.com"
