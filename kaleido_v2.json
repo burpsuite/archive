@@ -1,5 +1,5 @@
 {
-  "e5b0a082-d3c0-413a-978b-cffdbb17b697": {
+  "5b2fd8fbbc994": {
     "desc": "tencent_music_desktop",
     "host": [
       "https://i.y.qq.com",
@@ -47,7 +47,7 @@
       }
     }
   },
-  "a1538c0b-de91-4580-a521-004d50345311": {
+  "5b2fd906002d2": {
     "desc": "xiami-desktop handle.",
     "host": [
       "https://h5api.m.xiami.com",
@@ -100,7 +100,7 @@
       }
     }
   },
-  "505398d5-733e-46b5-89b6-1aaa0c9a61a4": {
+  "5b2fd91b554d7": {
     "desc": "youku_video-desktop handle.",
     "host": [
       "https://acs.youku.com",
@@ -147,7 +147,7 @@
       }
     }
   },
-  "bfab1f8e-5a54-4817-aa19-1cad3371ecdf": {
+  "5b2fd9240870b": {
     "desc": "iqiyi_desktop adblock.",
     "host": [
       "https://t7z.cupid.iqiyi.com",
@@ -192,7 +192,7 @@
       }
     }
   },
-  "dbedb466-0b21-4d82-b7e3-3849206d8ef5": {
+  "5b2fd92e3697d": {
     "desc": "applovin-client handle.",
     "host": [
       "https://a.applovin.com",
@@ -240,7 +240,7 @@
       }
     }
   },
-  "efe1cb00-7db6-42f4-b74e-486ba21504da": {
+  "5b2fd9403a905": {
     "desc": "sohu_video-web handle.",
     "host": [
       "https://m.aty.sohu.com",
@@ -285,7 +285,7 @@
       }
     }
   },
-  "b8e16d54-9c47-4264-9149-dbe25c212f67": {
+  "5b2fd94dd1e50": {
     "desc": "youku_video-client handle.",
     "host": [
       "https://ups.youku.com",
@@ -352,7 +352,7 @@
       }
     }
   },
-  "8ded7565-0625-46ce-a50e-a181434e2df0": {
+  "5b2fd955f20a9": {
     "desc": "tencent_video-web handle.",
     "host": [
       "https://livew.l.qq.com",
@@ -401,7 +401,7 @@
       }
     }
   },
-  "3cb3af55-12c3-45ea-9c80-e9f828dbe80e": {
+  "5b2fd960942dd": {
     "desc": "youku_video-web handle.",
     "host": [
       "https://pl-ali.youku.com",
@@ -448,7 +448,7 @@
       }
     }
   },
-  "de28aa62-4727-4f80-902e-4d85783d97c8": {
+  "5b2fd96c13bc4": {
     "desc": "iqiyi_video-web handle.",
     "host": [
       "https://cache.m.iqiyi.com",
@@ -495,7 +495,7 @@
       }
     }
   },
-  "6d0b4122-89af-4a7f-9d99-76c967882c8a": {
+  "5b2fd97d3ba1f": {
     "desc": "paw client get_empty_tests.",
     "host": "https://httpbin.org",
     "method": [
@@ -526,7 +526,7 @@
       }
     }
   },
-  "5dab080d-1c98-4779-94f3-b9869b64fbd9": {
+  "5b2fd98759794": {
     "desc": "paw client get_encoded_tests.",
     "host": "https://httpbin.org",
     "method": "get",
@@ -584,7 +584,7 @@
       }
     }
   },
-  "f48b11f3-02b3-49e5-ba5e-7f625f30105e": {
+  "5b2fd99527177": {
     "desc": "paw client post_empty_tests.",
     "host": "https://httpbin.org",
     "method": "post",
@@ -615,7 +615,7 @@
       }
     }
   },
-  "fd1bd8d8-bfd8-4518-936a-ec3612951807": {
+  "5b2fd99ec1e9b": {
     "desc": "paw client post_json_tests.",
     "host": "https://httpbin.org",
     "method": "post",
@@ -686,7 +686,7 @@
       }
     }
   },
-  "7dab080d-1c98-4779-94f3-b9869b64fbd9": {
+  "5b2fd99ec1e9b": {
     "desc": "paw client post_encoded_tests.",
     "host": "https://httpbin.org",
     "method": "post",
