@@ -22,14 +22,14 @@
         },
         "url_param": {},
         "form_param": {},
+        "body": {},
+        "body_patch": {},
         "cookie": {},
         "header": {
           "X-Forwarded-For": "60.30.20.10, 60.30.20.11",
           "Cookie": null,
           "Host": null
-        },
-        "body": {},
-        "body_patch": {}
+        }
       },
       "response": {
         "body": {
@@ -67,14 +67,14 @@
         "url": {},
         "url_param": {},
         "form_param": {},
+        "body": {},
+        "body_patch": {},
         "cookie": {},
         "header": {
           "X-Forwarded-For": "60.30.20.10, 60.30.20.11",
           "Cookie": null,
           "Host": null
-        },
-        "body": {},
-        "body_patch": {}
+        }
       },
       "response": {
         "body": {
@@ -114,14 +114,14 @@
           "pt": null
         },
         "form_param": {},
+        "body": {},
+        "body_patch": {},
         "cookie": {},
         "header": {
           "Cookie": null,
           "Host": null,
           "Accept-Encoding": null
-        },
-        "body": {},
-        "body_patch": {}
+        }
       },
       "response": {
         "body": {},
@@ -161,14 +161,14 @@
           "needad": "0"
         },
         "form_param": {},
+        "body": {},
+        "body_patch": {},
         "cookie": {},
         "header": {
           "X-Forwarded-For": "60.30.20.10, 60.30.20.11",
           "Cookie": null,
           "Host": null
-        },
-        "body": {},
-        "body_patch": {}
+        }
       },
       "response": {
         "body": {
@@ -226,15 +226,15 @@
         },
         "url_param": {},
         "form_param": {},
+        "body": {},
+        "body_patch": {},
         "cookie": {},
         "header": {
           "X-Forwarded-For": "60.30.20.10, 60.30.20.11",
           "Cookie": null,
           "Host": null,
           "Accept-Encoding": null
-        },
-        "body": {},
-        "body_patch": {}
+        }
       },
       "response": {
         "body": {
@@ -273,15 +273,15 @@
         "url": {},
         "url_param": {},
         "form_param": {},
+        "body": {},
+        "body_patch": {},
         "cookie": {},
         "header": {
           "Cookie": null,
           "Host": null,
           "Accept-Encoding": null,
           "X-Forwarded-For": "60.30.20.10, 60.30.20.11"
-        },
-        "body": {},
-        "body_patch": {}
+        }
       },
       "response": {
         "body": {
@@ -320,14 +320,14 @@
         "url": {},
         "url_param": {},
         "form_param": {},
+        "body": {},
+        "body_patch": {},
         "cookie": {},
         "header": {
           "Cookie": null,
           "Host": null,
           "Accept-Encoding": null
-        },
-        "body": {},
-        "body_patch": {}
+        }
       },
       "response": {
         "body": {
