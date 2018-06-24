@@ -1,0 +1,759 @@
+{
+  "e5b0a082-d3c0-413a-978b-cffdbb17b697": {
+    "desc": "tencent_music_desktop",
+    "host": [
+      "https://i.y.qq.com",
+      "http://i.y.qq.com"
+    ],
+    "method": [
+      "get",
+      "post"
+    ],
+    "control": {
+      "check_hostname": false,
+      "check_method": true,
+      "fix_same_param": true,
+      "request_header": true,
+      "request_cookie": true,
+      "response_header": true,
+      "response_cookie": true
+    },
+    "handle": {
+      "request": {
+        "url": {},
+        "url_param": {},
+        "form_param": {},
+        "cookie": {},
+        "header": {
+          "X-Forwarded-For": "60.30.20.10, 60.30.20.11",
+          "Cookie": null,
+          "Host": null
+        },
+        "body": {},
+        "body_patch": {}
+      },
+      "response": {
+        "body": {
+          "\"status\":1": "\"status\":0"
+        },
+        "body_patch": {},
+        "cookie": {},
+        "header": {
+          "Connection": null,
+          "Status-Line": null,
+          "Transfer-Encoding": null,
+          "Content-Length": null
+        }
+      }
+    }
+  },
+  "a1538c0b-de91-4580-a521-004d50345311": {
+    "desc": "xiami-desktop handle.",
+    "host": [
+      "https://h5api.m.xiami.com",
+      "http://h5api.m.xiami.com"
+    ],
+    "method": [
+      "get",
+      "post"
+    ],
+    "control": {
+      "check_hostname": false,
+      "check_method": true,
+      "fix_same_param": true,
+      "request_header": true,
+      "request_cookie": true,
+      "response_header": true,
+      "response_cookie": true
+    },
+    "handle": {
+      "request": {
+        "url": {
+          "https?:\\/\\/h5api.m.xiami.com": "https://service.au.apiconnect.ibmcloud.com/gws/apigateway/api/a62ae5d39051a5e2b69d17438213d6a05fcdb5e9522357231ec16874bf8eeae3/172b04fb-340c-4092-9a93-883f32699769"
+        },
+        "url_param": {},
+        "form_param": {},
+        "cookie": {},
+        "header": {
+          "X-Forwarded-For": "60.30.20.10, 60.30.20.11",
+          "Cookie": null,
+          "Host": null
+        },
+        "body": {},
+        "body_patch": {}
+      },
+      "response": {
+        "body": {
+          "\"needPayFlag\":\\d+": "\"needPayFlag\":0",
+          "(\"needPay\":)\\w+": "$1false",
+          "(\"needVip\":)\\w+": "$1false",
+          "(\"isExist\":)\\w+": "$1true"
+        },
+        "body_patch": {},
+        "cookie": {},
+        "header": {
+          "Connection": null,
+          "Status-Line": null,
+          "Transfer-Encoding": null,
+          "Content-Length": null
+        }
+      }
+    }
+  },
+  "505398d5-733e-46b5-89b6-1aaa0c9a61a4": {
+    "desc": "youku_video-desktop handle.",
+    "host": [
+      "https://acs.youku.com",
+      "http://acs.youku.com"
+    ],
+    "method": "get",
+    "control": {
+      "check_hostname": true,
+      "check_method": true,
+      "fix_same_param": true,
+      "request_header": true,
+      "request_cookie": true,
+      "response_header": true,
+      "response_cookie": true
+    },
+    "handle": {
+      "request": {
+        "url": {
+          "https?:\\/\\/acs.youku.com": "http://service-hk1ysj1l-1251193060.ap-beijing.apigateway.myqcloud.com/release"
+        },
+        "url_param": {},
+        "form_param": {},
+        "cookie": {},
+        "header": {
+          "X-Forwarded-For": "60.30.20.10, 60.30.20.11",
+          "Cookie": null,
+          "Host": null
+        },
+        "body": {},
+        "body_patch": {}
+      },
+      "response": {
+        "body": {
+          "\"ad\":{": "\"del_ad\":{"
+        },
+        "body_patch": {},
+        "cookie": {},
+        "header": {
+          "Connection": null,
+          "Status-Line": null,
+          "Transfer-Encoding": null,
+          "Content-Length": null
+        }
+      }
+    }
+  },
+  "bfab1f8e-5a54-4817-aa19-1cad3371ecdf": {
+    "desc": "iqiyi_desktop adblock.",
+    "host": [
+      "https://t7z.cupid.iqiyi.com",
+      "http://t7z.cupid.iqiyi.com"
+    ],
+    "method": "get",
+    "control": {
+      "check_hostname": true,
+      "check_method": true,
+      "fix_same_param": true,
+      "request_header": true,
+      "request_cookie": true,
+      "response_header": true,
+      "response_cookie": true
+    },
+    "handle": {
+      "request": {
+        "url": {},
+        "url_param": {},
+        "form_param": {},
+        "cookie": {},
+        "header": {
+          "X-Forwarded-For": "60.30.20.10, 60.30.20.11",
+          "Cookie": null,
+          "Host": null
+        },
+        "body": {},
+        "body_patch": {}
+      },
+      "response": {
+        "body": {
+          "(\"duration\":)\"\\d+\"": "$1\"0\""
+        },
+        "body_patch": {},
+        "cookie": {},
+        "header": {
+          "Connection": null,
+          "Status-Line": null,
+          "Transfer-Encoding": null,
+          "Content-Length": null
+        }
+      }
+    }
+  },
+  "dbedb466-0b21-4d82-b7e3-3849206d8ef5": {
+    "desc": "applovin-client handle.",
+    "host": [
+      "https://a.applovin.com",
+      "http://a.applovin.com"
+    ],
+    "method": "get",
+    "control": {
+      "check_hostname": true,
+      "check_method": true,
+      "fix_same_param": false,
+      "request_header": true,
+      "request_cookie": true,
+      "response_header": true,
+      "response_cookie": true
+    },
+    "handle": {
+      "request": {
+        "url": {
+          "https?:\\/\\/a.applovin.com": "http://2c6c41533a0b424c9d2aaaaef44b081e-cn-beijing.alicloudapi.com"
+        },
+        "url_param": {},
+        "form_param": {},
+        "cookie": {},
+        "header": {
+          "X-Forwarded-For": "60.30.20.10, 60.30.20.11",
+          "Cookie": null,
+          "Host": null
+        },
+        "body": {},
+        "body_patch": {}
+      },
+      "response": {
+        "body": {},
+        "body_patch": {
+          "video": "https://httpbin.org/put",
+          "close_delay_graphic": 1
+        },
+        "cookie": {},
+        "header": {
+          "Connection": null,
+          "Status-Line": null,
+          "Transfer-Encoding": null,
+          "Content-Length": null
+        }
+      }
+    }
+  },
+  "efe1cb00-7db6-42f4-b74e-486ba21504da": {
+    "desc": "sohu_video-web handle.",
+    "host": [
+      "https://m.aty.sohu.com",
+      "http://m.aty.sohu.com"
+    ],
+    "method": "get",
+    "control": {
+      "check_hostname": true,
+      "check_method": true,
+      "fix_same_param": false,
+      "request_header": true,
+      "request_cookie": true,
+      "response_header": true,
+      "response_cookie": true
+    },
+    "handle": {
+      "request": {
+        "url": {},
+        "url_param": {
+          "pt": null
+        },
+        "form_param": {},
+        "cookie": {},
+        "header": {
+          "Cookie": null,
+          "Host": null,
+          "Accept-Encoding": null
+        },
+        "body": {},
+        "body_patch": {}
+      },
+      "response": {
+        "body": {},
+        "body_patch": {},
+        "cookie": {},
+        "header": {
+          "Connection": null,
+          "Status-Line": null,
+          "Transfer-Encoding": null,
+          "Content-Length": null
+        }
+      }
+    }
+  },
+  "b8e16d54-9c47-4264-9149-dbe25c212f67": {
+    "desc": "youku_video-client handle.",
+    "host": [
+      "https://ups.youku.com",
+      "http://ups.youku.com"
+    ],
+    "method": "get",
+    "control": {
+      "check_hostname": true,
+      "check_method": true,
+      "fix_same_param": false,
+      "request_header": true,
+      "request_cookie": true,
+      "response_header": true,
+      "response_cookie": true
+    },
+    "handle": {
+      "request": {
+        "url": {
+          "https?:\\/\\/ups.youku.com": "https://service.au.apiconnect.ibmcloud.com/gws/apigateway/api/a62ae5d39051a5e2b69d17438213d6a05fcdb5e9522357231ec16874bf8eeae3/2c6fc87a-6e22-482c-8888-80c6c178cfbf"
+        },
+        "url_param": {
+          "needad": "0"
+        },
+        "form_param": {},
+        "cookie": {},
+        "header": {
+          "X-Forwarded-For": "60.30.20.10, 60.30.20.11",
+          "Cookie": null,
+          "Host": null
+        },
+        "body": {},
+        "body_patch": {}
+      },
+      "response": {
+        "body": {
+          "\"ad\":{": "\"del_ad\":{"
+        },
+        "body_patch": {
+          "data": {
+            "ad": null,
+            "ups": {
+              "ups_client_netip": "60.30.20.10"
+            },
+            "vip": {
+              "hd3": true,
+              "vipDownload": true,
+              "dolby": true
+            },
+            "user": {
+              "ip": "60.30.20.10"
+            },
+            "network": {
+              "country_code": "CN"
+            }
+          }
+        },
+        "cookie": {},
+        "header": {
+          "Connection": null,
+          "Status-Line": null,
+          "Transfer-Encoding": null,
+          "Content-Length": null
+        }
+      }
+    }
+  },
+  "8ded7565-0625-46ce-a50e-a181434e2df0": {
+    "desc": "tencent_video-web handle.",
+    "host": [
+      "https://livew.l.qq.com",
+      "http://livew.l.qq.com"
+    ],
+    "method": "get",
+    "control": {
+      "check_hostname": true,
+      "check_method": true,
+      "fix_same_param": false,
+      "request_header": true,
+      "request_cookie": true,
+      "response_header": true,
+      "response_cookie": true
+    },
+    "handle": {
+      "request": {
+        "url": {
+          "https?:\\/\\/livew.l.qq.com": "http://2c6c41533a0b424c9d2aaaaef44b081e-cn-beijing.alicloudapi.com"
+        },
+        "url_param": {},
+        "form_param": {},
+        "cookie": {},
+        "header": {
+          "X-Forwarded-For": "60.30.20.10, 60.30.20.11",
+          "Cookie": null,
+          "Host": null,
+          "Accept-Encoding": null
+        },
+        "body": {},
+        "body_patch": {}
+      },
+      "response": {
+        "body": {
+          "\"item\"": "\"item_del\""
+        },
+        "body_patch": {},
+        "cookie": {},
+        "header": {
+          "Access-Control-Allow-Origin": "*",
+          "Connection": null,
+          "Status-Line": null,
+          "Transfer-Encoding": null,
+          "Content-Length": null
+        }
+      }
+    }
+  },
+  "3cb3af55-12c3-45ea-9c80-e9f828dbe80e": {
+    "desc": "youku_video-web handle.",
+    "host": [
+      "https://pl-ali.youku.com",
+      "http://pl-ali.youku.com"
+    ],
+    "method": "get",
+    "control": {
+      "check_hostname": true,
+      "check_method": true,
+      "fix_same_param": false,
+      "request_header": true,
+      "request_cookie": true,
+      "response_header": true,
+      "response_cookie": true
+    },
+    "handle": {
+      "request": {
+        "url": {},
+        "url_param": {},
+        "form_param": {},
+        "cookie": {},
+        "header": {
+          "Cookie": null,
+          "Host": null,
+          "Accept-Encoding": null,
+          "X-Forwarded-For": "60.30.20.10, 60.30.20.11"
+        },
+        "body": {},
+        "body_patch": {}
+      },
+      "response": {
+        "body": {
+          "http:\\/\\/[\\w\\.]+\\/[0-9A-F]+\\/[0-9A-F\\-]+\\.mp4\\.ts\\?.*?&duration=[0-9]{2}\\&.*": ""
+        },
+        "body_patch": {},
+        "cookie": {},
+        "header": {
+          "Access-Control-Allow-Origin": "*",
+          "Connection": null,
+          "Status-Line": null,
+          "Transfer-Encoding": null,
+          "Content-Length": null
+        }
+      }
+    }
+  },
+  "de28aa62-4727-4f80-902e-4d85783d97c8": {
+    "desc": "iqiyi_video-web handle.",
+    "host": [
+      "https://cache.m.iqiyi.com",
+      "http://cache.m.iqiyi.com"
+    ],
+    "method": "get",
+    "control": {
+      "check_hostname": true,
+      "check_method": true,
+      "fix_same_param": true,
+      "request_header": true,
+      "request_cookie": true,
+      "response_header": true,
+      "response_cookie": true
+    },
+    "handle": {
+      "request": {
+        "url": {},
+        "url_param": {},
+        "form_param": {},
+        "cookie": {},
+        "header": {
+          "Cookie": null,
+          "Host": null,
+          "Accept-Encoding": null
+        },
+        "body": {},
+        "body_patch": {}
+      },
+      "response": {
+        "body": {
+          "http:\\/\\/data.video.(i)?qiyi.com\\/videos\\/other\\/.*": ""
+        },
+        "body_patch": {},
+        "cookie": {},
+        "header": {
+          "Content-Type": "text/plain",
+          "Connection": null,
+          "Content-Encoding": null,
+          "Status-Line": null,
+          "Transfer-Encoding": null,
+          "Content-Length": null
+        }
+      }
+    }
+  },
+  "6d0b4122-89af-4a7f-9d99-76c967882c8a": {
+    "desc": "paw client get_empty_tests.",
+    "host": "https:\\/\\/httpbin.org",
+    "method": [
+      "get",
+      "post"
+    ],
+    "control": {
+      "check_hostname": true,
+      "check_method": true,
+      "fix_same_param": false,
+      "request_cookie": false,
+      "request_header": false,
+      "response_header": false,
+      "response_cookie": false
+    },
+    "handle": {
+      "request": {
+        "url": {},
+        "url_param": {},
+        "cookie": {},
+        "header": {}
+      },
+      "response": {
+        "body": {},
+        "body_patch": {},
+        "cookie": {},
+        "header": {}
+      }
+    }
+  },
+  "5dab080d-1c98-4779-94f3-b9869b64fbd9": {
+    "desc": "paw client get_encoded_tests.",
+    "host": "https:\\/\\/httpbin.org",
+    "method": "get",
+    "control": {
+      "check_hostname": true,
+      "check_method": true,
+      "fix_same_param": false,
+      "request_cookie": true,
+      "request_header": true,
+      "response_header": true,
+      "response_cookie": true
+    },
+    "handle": {
+      "request": {
+        "url": {
+          "\\/delete": "/modify",
+          "\\/modify": "/delete"
+        },
+        "url_param": {
+          "deleteKaleidoClientParam": null,
+          "modifyKaleidoClientParam": "modify_before",
+          "addedKaleidoServerParam": "added_param"
+        },
+        "cookie": {
+          "deleteKaleidoClientCookie": null,
+          "modifyKaleidoClientCookie": "modify_before",
+          "addedKaleidoServerCookie": "added_cookie"
+        },
+        "header": {
+          "Deletekaleidoclientheader": null,
+          "Modifykaleidoclientheader": "modify_before",
+          "AddedKaleidoServerHeader": "added_header",
+          "Host": null,
+          "Cookie": null
+        }
+      },
+      "response": {
+        "body": {
+          "args": "before_args"
+        },
+        "body_patch": {
+          "json": [
+            "success",
+            "patch_before"
+          ]
+        },
+        "cookie": {
+          "addKaleidoResponseCookie": "added_response"
+        },
+        "header": {
+          "addKaleidoResponseHeader": "added_response",
+          "Content-Length": null,
+          "Status-Line": null
+        }
+      }
+    }
+  },
+  "f48b11f3-02b3-49e5-ba5e-7f625f30105e": {
+    "desc": "paw client post_empty_tests.",
+    "host": "https:\\/\\/httpbin.org",
+    "method": "post",
+    "control": {
+      "check_hostname": true,
+      "check_method": true,
+      "fix_same_param": false,
+      "request_header": false,
+      "request_cookie": false,
+      "response_header": false,
+      "response_cookie": false
+    },
+    "handle": {
+      "request": {
+        "url": {},
+        "url_param": {},
+        "form_param": {},
+        "cookie": {},
+        "header": {},
+        "body": {},
+        "body_patch": {}
+      },
+      "response": {
+        "body": {},
+        "body_patch": {},
+        "cookie": {},
+        "header": {}
+      }
+    }
+  },
+  "fd1bd8d8-bfd8-4518-936a-ec3612951807": {
+    "desc": "paw client post_json_tests.",
+    "host": "https:\\/\\/httpbin.org",
+    "method": "post",
+    "control": {
+      "check_hostname": true,
+      "check_method": true,
+      "fix_same_param": false,
+      "request_header": true,
+      "request_cookie": true,
+      "response_header": true,
+      "response_cookie": true
+    },
+    "handle": {
+      "request": {
+        "url": {
+          "\\/delete": "/modify",
+          "\\/modify": "/delete"
+        },
+        "url_param": {
+          "deleteKaleidoClientParam": null,
+          "modifyKaleidoClientParam": "modify_before",
+          "addedKaleidoServerParam": "added_param"
+        },
+        "form_param": {
+          "deleteKaleidoClientBody": null,
+          "modifyKaleidoClientBody": "modify_before",
+          "addedKaleidoServerBody": "added_from"
+        },
+        "cookie": {
+          "deleteKaleidoClientCookie": null,
+          "modifyKaleidoClientCookie": "modify_before",
+          "addedKaleidoServerCookie": "added_cookie"
+        },
+        "header": {
+          "Deletekaleidoclientheader": null,
+          "Modifykaleidoclientheader": "modify_before",
+          "AddedKaleidoServerHeader": "added_header",
+          "Host": null,
+          "Cookie": null,
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "deleteKaleidoClientBody": null,
+          "modifyKaleidoClientBody": "modify_before"
+        },
+        "body_patch": {
+          "AddedKaleidoServerPatch": "added_patch"
+        }
+      },
+      "response": {
+        "body": {
+          "args": "before_args"
+        },
+        "body_patch": {
+          "json": [
+            "success",
+            "patch_before"
+          ]
+        },
+        "cookie": {
+          "addKaleidoResponseCookie": "added_response"
+        },
+        "header": {
+          "addKaleidoResponseHeader": "added_response",
+          "Content-Length": null,
+          "Status-Line": null
+        }
+      }
+    }
+  },
+  "7dab080d-1c98-4779-94f3-b9869b64fbd9": {
+    "desc": "paw client post_encoded_tests.",
+    "host": "https:\\/\\/httpbin.org",
+    "method": "post",
+    "control": {
+      "check_hostname": true,
+      "check_method": true,
+      "fix_same_param": false,
+      "request_header": true,
+      "request_cookie": true,
+      "response_header": true,
+      "response_cookie": true
+    },
+    "handle": {
+      "request": {
+        "url": {
+          "\\/delete": "/modify",
+          "\\/modify": "/delete"
+        },
+        "url_param": {
+          "deleteKaleidoClientParam": null,
+          "modifyKaleidoClientParam": "modify_before",
+          "addedKaleidoServerParam": "added_param"
+        },
+        "form_param": {
+          "deleteKaleidoClientBody": null,
+          "modifyKaleidoClientBody": "modify_before",
+          "addedKaleidoServerBody": "added_from"
+        },
+        "cookie": {
+          "deleteKaleidoClientCookie": null,
+          "modifyKaleidoClientCookie": "modify_before",
+          "addedKaleidoServerCookie": "added_cookie"
+        },
+        "header": {
+          "Deletekaleidoclientheader": null,
+          "Modifykaleidoclientheader": "modify_before",
+          "AddedKaleidoServerHeader": "added_header",
+          "Host": null,
+          "Cookie": null
+        },
+        "body": {
+          "deleteKaleidoClientBody": null,
+          "modifyKaleidoClientBody": "modify_before"
+        },
+        "body_patch": {
+          "AddedKaleidoServerPatch": "added_patch"
+        }
+      },
+      "response": {
+        "body": {
+          "args": "before_args"
+        },
+        "body_patch": {
+          "json": [
+            "success",
+            "patch_before"
+          ]
+        },
+        "cookie": {
+          "addKaleidoResponseCookie": "added_response"
+        },
+        "header": {
+          "addKaleidoResponseHeader": "added_response",
+          "Content-Length": null,
+          "Status-Line": null
+        }
+      }
+    }
+  }
+}
