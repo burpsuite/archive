@@ -1,4 +1,48 @@
 {
+  
+  "5b36788ee0e42": {
+    "desc": "script_redirect",
+    "host": null,
+    "method": null,
+    "control": {
+      "check_hostname": false,
+      "check_method": false,
+      "fix_same_param": true,
+      "request_header": true,
+      "request_cookie": true,
+      "response_header": true,
+      "response_cookie": true
+    },
+    "handle": {
+      "request": {
+        "url": {},
+        "url_param": {},
+        "form_param": {},
+        "body": {},
+        "body_patch": {},
+        "cookie": {},
+        "header": {
+          "X-Forwarded-For": "60.30.20.10, 60.30.20.11",
+          "Cookie": null,
+          "Host": null
+        }
+      },
+      "response": {
+        "body": {},
+        "body_patch": {},
+        "cookie": {},
+        "header": {
+          "Connection": null,
+          "Status-Line": null,
+          "Transfer-Encoding": null,
+          "Content-Length": null
+        }
+      }
+    }
+  },
+  
+  
+  
   "5b2fd91b554d7": {
     "desc": "youku browser",
     "host": [
