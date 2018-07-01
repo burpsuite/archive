@@ -7,7 +7,7 @@
     "control": {
       "check_hostname": false,
       "check_method": false,
-      "fix_same_param": true,
+      "fix_urlencode": true,
       "request_header": true,
       "request_cookie": true,
       "response_header": true,
@@ -53,7 +53,7 @@
     "control": {
       "check_hostname": true,
       "check_method": true,
-      "fix_same_param": true,
+      "fix_urlencode": true,
       "request_header": true,
       "request_cookie": true,
       "response_header": true,
@@ -100,7 +100,7 @@
     "control": {
       "check_hostname": true,
       "check_method": true,
-      "fix_same_param": true,
+      "fix_urlencode": true,
       "request_header": true,
       "request_cookie": true,
       "response_header": true,
@@ -145,7 +145,7 @@
     "control": {
       "check_hostname": true,
       "check_method": true,
-      "fix_same_param": false,
+      "fix_urlencode": false,
       "request_header": true,
       "request_cookie": true,
       "response_header": true,
@@ -190,7 +190,7 @@
     "control": {
       "check_hostname": true,
       "check_method": true,
-      "fix_same_param": false,
+      "fix_urlencode": false,
       "request_header": true,
       "request_cookie": true,
       "response_header": true,
@@ -257,7 +257,7 @@
     "control": {
       "check_hostname": true,
       "check_method": true,
-      "fix_same_param": false,
+      "fix_urlencode": false,
       "request_header": true,
       "request_cookie": true,
       "response_header": true,
@@ -306,7 +306,7 @@
     "control": {
       "check_hostname": true,
       "check_method": true,
-      "fix_same_param": false,
+      "fix_urlencode": false,
       "request_header": true,
       "request_cookie": true,
       "response_header": true,
@@ -353,7 +353,7 @@
     "control": {
       "check_hostname": true,
       "check_method": true,
-      "fix_same_param": true,
+      "fix_urlencode": true,
       "request_header": true,
       "request_cookie": true,
       "response_header": true,
