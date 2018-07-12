@@ -1,0 +1,389 @@
+[
+  {
+    "desc": "script_redirect",
+    "host": null,
+    "method": null,
+    "control": {
+      "check_hostname": false,
+      "check_method": false,
+      "fix_urlencode": true,
+      "request_header": true,
+      "request_cookie": true,
+      "response_header": true,
+      "response_cookie": true
+    },
+    "handle": {
+      "request": {
+        "url": {},
+        "url_param": {},
+        "form_param": {},
+        "body": {},
+        "body_patch": {},
+        "cookie": {},
+        "header": {
+          "X-Forwarded-For": "60.30.20.10, 60.30.20.11",
+          "Cookie": null,
+          "Host": null
+        }
+      },
+      "response": {
+        "body": {},
+        "body_patch": {},
+        "cookie": {},
+        "header": {
+          "Connection": null,
+          "Status-Line": null,
+          "Transfer-Encoding": null,
+          "Content-Length": null
+        }
+      }
+    }
+  },
+  {
+    "desc": "youku browser",
+    "host": [
+      "https://acs.youku.com",
+      "http://acs.youku.com"
+    ],
+    "method": "get",
+    "control": {
+      "check_hostname": true,
+      "check_method": true,
+      "fix_urlencode": true,
+      "request_header": true,
+      "request_cookie": true,
+      "response_header": true,
+      "response_cookie": true
+    },
+    "handle": {
+      "request": {
+        "url": {
+          "https?:\\/\\/acs.youku.com": "http://service-hk1ysj1l-1251193060.ap-beijing.apigateway.myqcloud.com/release"
+        },
+        "url_param": {},
+        "form_param": {},
+        "body": {},
+        "body_patch": {},
+        "cookie": {},
+        "header": {
+          "X-Forwarded-For": "60.30.20.10, 60.30.20.11",
+          "Cookie": null,
+          "Host": null
+        }
+      },
+      "response": {
+        "body": {
+          "\"ad\":{": "\"del_ad\":{"
+        },
+        "body_patch": {},
+        "cookie": {},
+        "header": {
+          "Connection": null,
+          "Status-Line": null,
+          "Transfer-Encoding": null,
+          "Content-Length": null
+        }
+      }
+    }
+  },
+  {
+    "desc": "iqiyi browser",
+    "host": [
+      "https://t7z.cupid.iqiyi.com",
+      "http://t7z.cupid.iqiyi.com"
+    ],
+    "method": "get",
+    "control": {
+      "check_hostname": true,
+      "check_method": true,
+      "fix_urlencode": true,
+      "request_header": true,
+      "request_cookie": true,
+      "response_header": true,
+      "response_cookie": true
+    },
+    "handle": {
+      "request": {
+        "url": {},
+        "url_param": {},
+        "form_param": {},
+        "body": {},
+        "body_patch": {},
+        "cookie": {},
+        "header": {
+          "X-Forwarded-For": "60.30.20.10, 60.30.20.11",
+          "Cookie": null,
+          "Host": null
+        }
+      },
+      "response": {
+        "body": {
+          "(\"duration\":)\"\\d+\"": "$1\"0\""
+        },
+        "body_patch": {},
+        "cookie": {},
+        "header": {
+          "Connection": null,
+          "Status-Line": null,
+          "Transfer-Encoding": null,
+          "Content-Length": null
+        }
+      }
+    }
+  },
+  {
+    "desc": "sohu browser",
+    "host": [
+      "https://m.aty.sohu.com",
+      "http://m.aty.sohu.com"
+    ],
+    "method": "get",
+    "control": {
+      "check_hostname": true,
+      "check_method": true,
+      "fix_urlencode": false,
+      "request_header": true,
+      "request_cookie": true,
+      "response_header": true,
+      "response_cookie": true
+    },
+    "handle": {
+      "request": {
+        "url": {},
+        "url_param": {
+          "pt": null
+        },
+        "form_param": {},
+        "body": {},
+        "body_patch": {},
+        "cookie": {},
+        "header": {
+          "Cookie": null,
+          "Host": null,
+          "Accept-Encoding": null
+        }
+      },
+      "response": {
+        "body": {},
+        "body_patch": {},
+        "cookie": {},
+        "header": {
+          "Connection": null,
+          "Status-Line": null,
+          "Transfer-Encoding": null,
+          "Content-Length": null
+        }
+      }
+    }
+  },
+  {
+    "desc": "youku app",
+    "host": [
+      "https://ups.youku.com",
+      "http://ups.youku.com"
+    ],
+    "method": "get",
+    "control": {
+      "check_hostname": true,
+      "check_method": true,
+      "fix_urlencode": false,
+      "request_header": true,
+      "request_cookie": true,
+      "response_header": true,
+      "response_cookie": true
+    },
+    "handle": {
+      "request": {
+        "url": {
+          "https?:\\/\\/ups.youku.com": "https://service.au.apiconnect.ibmcloud.com/gws/apigateway/api/a62ae5d39051a5e2b69d17438213d6a05fcdb5e9522357231ec16874bf8eeae3/2c6fc87a-6e22-482c-8888-80c6c178cfbf"
+        },
+        "url_param": {
+          "needad": "0"
+        },
+        "form_param": {},
+        "body": {},
+        "body_patch": {},
+        "cookie": {},
+        "header": {
+          "X-Forwarded-For": "60.30.20.10, 60.30.20.11",
+          "Cookie": null,
+          "Host": null
+        }
+      },
+      "response": {
+        "body": {
+          "\"ad\":{": "\"del_ad\":{"
+        },
+        "body_patch": {
+          "data": {
+            "ad": null,
+            "ups": {
+              "ups_client_netip": "60.30.20.10"
+            },
+            "vip": {
+              "hd3": true,
+              "vipDownload": true,
+              "dolby": true
+            },
+            "user": {
+              "ip": "60.30.20.10"
+            },
+            "network": {
+              "country_code": "CN"
+            }
+          }
+        },
+        "cookie": {},
+        "header": {
+          "Connection": null,
+          "Status-Line": null,
+          "Transfer-Encoding": null,
+          "Content-Length": null
+        }
+      }
+    }
+  },
+  {
+    "desc": "tencent browser",
+    "host": [
+      "https://livew.l.qq.com",
+      "http://livew.l.qq.com"
+    ],
+    "method": "get",
+    "control": {
+      "check_hostname": true,
+      "check_method": true,
+      "fix_urlencode": false,
+      "request_header": true,
+      "request_cookie": true,
+      "response_header": true,
+      "response_cookie": true
+    },
+    "handle": {
+      "request": {
+        "url": {
+          "https?:\\/\\/livew.l.qq.com": "http://2c6c41533a0b424c9d2aaaaef44b081e-cn-beijing.alicloudapi.com"
+        },
+        "url_param": {},
+        "form_param": {},
+        "body": {},
+        "body_patch": {},
+        "cookie": {},
+        "header": {
+          "X-Forwarded-For": "60.30.20.10, 60.30.20.11",
+          "Cookie": null,
+          "Host": null,
+          "Accept-Encoding": null
+        }
+      },
+      "response": {
+        "body": {
+          "\"item\"": "\"item_del\""
+        },
+        "body_patch": {},
+        "cookie": {},
+        "header": {
+          "Access-Control-Allow-Origin": "*",
+          "Connection": null,
+          "Status-Line": null,
+          "Transfer-Encoding": null,
+          "Content-Length": null
+        }
+      }
+    }
+  },
+  {
+    "desc": "youku browser",
+    "host": [
+      "https://pl-ali.youku.com",
+      "http://pl-ali.youku.com"
+    ],
+    "method": "get",
+    "control": {
+      "check_hostname": true,
+      "check_method": true,
+      "fix_urlencode": false,
+      "request_header": true,
+      "request_cookie": true,
+      "response_header": true,
+      "response_cookie": true
+    },
+    "handle": {
+      "request": {
+        "url": {},
+        "url_param": {},
+        "form_param": {},
+        "body": {},
+        "body_patch": {},
+        "cookie": {},
+        "header": {
+          "Cookie": null,
+          "Host": null,
+          "Accept-Encoding": null,
+          "X-Forwarded-For": "60.30.20.10, 60.30.20.11"
+        }
+      },
+      "response": {
+        "body": {
+          "http:\\/\\/[\\w\\.]+\\/[0-9A-F]+\\/[0-9A-F\\-]+\\.mp4\\.ts\\?.*?&duration=[0-9]{2}\\&.*": ""
+        },
+        "body_patch": {},
+        "cookie": {},
+        "header": {
+          "Access-Control-Allow-Origin": "*",
+          "Connection": null,
+          "Status-Line": null,
+          "Transfer-Encoding": null,
+          "Content-Length": null
+        }
+      }
+    }
+  },
+  {
+    "desc": "iqiyi browser",
+    "host": [
+      "https://cache.m.iqiyi.com",
+      "http://cache.m.iqiyi.com"
+    ],
+    "method": "get",
+    "control": {
+      "check_hostname": true,
+      "check_method": true,
+      "fix_urlencode": true,
+      "request_header": true,
+      "request_cookie": true,
+      "response_header": true,
+      "response_cookie": true
+    },
+    "handle": {
+      "request": {
+        "url": {},
+        "url_param": {},
+        "form_param": {},
+        "body": {},
+        "body_patch": {},
+        "cookie": {},
+        "header": {
+          "Cookie": null,
+          "Host": null,
+          "Accept-Encoding": null
+        }
+      },
+      "response": {
+        "body": {
+          "http:\\/\\/data.video.(i)?qiyi.com\\/videos\\/other\\/.*": ""
+        },
+        "body_patch": {},
+        "cookie": {},
+        "header": {
+          "Content-Type": "text/plain",
+          "Connection": null,
+          "Content-Encoding": null,
+          "Status-Line": null,
+          "Transfer-Encoding": null,
+          "Content-Length": null
+        }
+      }
+    }
+  }
+]
