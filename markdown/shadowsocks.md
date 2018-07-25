@@ -18,14 +18,14 @@
 Copy
 ---------------------
 {
- "server":"0.0.0.0",
- "server_port":18650,
- "local_port":1080,
- "password":"Secure",
- "timeout":60,
- "method":"chacha20",
- "fast_open":true,
- "plugin":"/usr/local/bin/obfs-server --obfs http"
+  "server": "0.0.0.0",
+  "server_port": 18650,
+  "local_port": 1080,
+  "password": "Secure",
+  "timeout": 60,
+  "method": "chacha20",
+  "fast_open": true,
+  "plugin": "/usr/local/bin/obfs-server --obfs http"
 }
 ---------------------
 [Esc+:%d] + i + Paste + [Esc+:wq]
