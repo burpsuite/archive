@@ -3,17 +3,13 @@
     "desc": "script_redirect",
     "host": null,
     "method": null,
-    "control": {
-      "check_hostname": false,
-      "check_method": false,
-      "fix_urlencode": true,
-      "request_header": true,
-      "request_cookie": true,
-      "response_header": true,
-      "response_cookie": true
-    },
     "handle": {
       "request": {
+        "check_hostname": false,
+        "check_method": false,
+        "fix_urlencode": true,
+        "enable_header": true,
+        "enable_cookie": true,
         "url": {},
         "url_param": {},
         "form_param": {},
@@ -27,6 +23,8 @@
         }
       },
       "response": {
+        "enable_header": true,
+        "enable_cookie": true,
         "body": {},
         "body_patch": {},
         "cookie": {},
@@ -46,17 +44,13 @@
       "http://acs.youku.com"
     ],
     "method": "get",
-    "control": {
-      "check_hostname": true,
-      "check_method": true,
-      "fix_urlencode": true,
-      "request_header": true,
-      "request_cookie": true,
-      "response_header": true,
-      "response_cookie": true
-    },
     "handle": {
       "request": {
+        "check_hostname": true,
+        "check_method": true,
+        "fix_urlencode": true,
+        "enable_header": true,
+        "enable_cookie": true,
         "url": {
           "https?:\\/\\/acs.youku.com": "http://service-hk1ysj1l-1251193060.ap-beijing.apigateway.myqcloud.com/release"
         },
@@ -72,6 +66,8 @@
         }
       },
       "response": {
+        "enable_header": true,
+        "enable_cookie": true,
         "body": {
           "\"ad\":{": "\"del_ad\":{"
         },
@@ -93,17 +89,13 @@
       "http://t7z.cupid.iqiyi.com"
     ],
     "method": "get",
-    "control": {
-      "check_hostname": true,
-      "check_method": true,
-      "fix_urlencode": true,
-      "request_header": true,
-      "request_cookie": true,
-      "response_header": true,
-      "response_cookie": true
-    },
     "handle": {
       "request": {
+        "check_hostname": true,
+        "check_method": true,
+        "fix_urlencode": true,
+        "enable_header": true,
+        "enable_cookie": true,
         "url": {},
         "url_param": {},
         "form_param": {},
@@ -117,6 +109,8 @@
         }
       },
       "response": {
+        "enable_header": true,
+        "enable_cookie": true,
         "body": {
           "(\"duration\":)\"\\d+\"": "$1\"0\""
         },
@@ -138,17 +132,13 @@
       "http://m.aty.sohu.com"
     ],
     "method": "get",
-    "control": {
-      "check_hostname": true,
-      "check_method": true,
-      "fix_urlencode": false,
-      "request_header": true,
-      "request_cookie": true,
-      "response_header": true,
-      "response_cookie": true
-    },
     "handle": {
       "request": {
+        "check_hostname": true,
+        "check_method": true,
+        "fix_urlencode": false,
+        "enable_header": true,
+        "enable_cookie": true,
         "url": {},
         "url_param": {
           "pt": null
@@ -164,6 +154,8 @@
         }
       },
       "response": {
+        "enable_header": true,
+        "enable_cookie": true,
         "body": {},
         "body_patch": {},
         "cookie": {},
@@ -183,17 +175,13 @@
       "http://ups.youku.com"
     ],
     "method": "get",
-    "control": {
-      "check_hostname": true,
-      "check_method": true,
-      "fix_urlencode": false,
-      "request_header": true,
-      "request_cookie": true,
-      "response_header": true,
-      "response_cookie": true
-    },
     "handle": {
       "request": {
+        "check_hostname": true,
+        "check_method": true,
+        "fix_urlencode": false,
+        "enable_header": true,
+        "enable_cookie": true,
         "url": {
           "https?:\\/\\/ups.youku.com": "https://service.au.apiconnect.ibmcloud.com/gws/apigateway/api/a62ae5d39051a5e2b69d17438213d6a05fcdb5e9522357231ec16874bf8eeae3/2c6fc87a-6e22-482c-8888-80c6c178cfbf"
         },
@@ -211,6 +199,8 @@
         }
       },
       "response": {
+        "enable_header": true,
+        "enable_cookie": true,
         "body": {
           "\"ad\":{": "\"del_ad\":{"
         },
@@ -250,17 +240,13 @@
       "http://livew.l.qq.com"
     ],
     "method": "get",
-    "control": {
-      "check_hostname": true,
-      "check_method": true,
-      "fix_urlencode": false,
-      "request_header": true,
-      "request_cookie": true,
-      "response_header": true,
-      "response_cookie": true
-    },
     "handle": {
       "request": {
+        "check_hostname": true,
+        "check_method": true,
+        "fix_urlencode": false,
+        "enable_header": true,
+        "enable_cookie": true,
         "url": {
           "https?:\\/\\/livew.l.qq.com": "http://2c6c41533a0b424c9d2aaaaef44b081e-cn-beijing.alicloudapi.com"
         },
@@ -277,6 +263,8 @@
         }
       },
       "response": {
+        "enable_header": true,
+        "enable_cookie": true,
         "body": {
           "\"item\"": "\"item_del\""
         },
@@ -299,17 +287,13 @@
       "http://pl-ali.youku.com"
     ],
     "method": "get",
-    "control": {
-      "check_hostname": true,
-      "check_method": true,
-      "fix_urlencode": false,
-      "request_header": true,
-      "request_cookie": true,
-      "response_header": true,
-      "response_cookie": true
-    },
     "handle": {
       "request": {
+        "check_hostname": true,
+        "check_method": true,
+        "fix_urlencode": false,
+        "enable_header": true,
+        "enable_cookie": true,
         "url": {},
         "url_param": {},
         "form_param": {},
@@ -324,6 +308,8 @@
         }
       },
       "response": {
+        "enable_header": true,
+        "enable_cookie": true,
         "body": {
           "http:\\/\\/[\\w\\.]+\\/[0-9A-F]+\\/[0-9A-F\\-]+\\.mp4\\.ts\\?.*?&duration=[0-9]{2}\\&.*": ""
         },
@@ -346,17 +332,13 @@
       "http://cache.m.iqiyi.com"
     ],
     "method": "get",
-    "control": {
-      "check_hostname": true,
-      "check_method": true,
-      "fix_urlencode": true,
-      "request_header": true,
-      "request_cookie": true,
-      "response_header": true,
-      "response_cookie": true
-    },
     "handle": {
       "request": {
+        "check_hostname": true,
+        "check_method": true,
+        "fix_urlencode": true,
+        "enable_header": true,
+        "enable_cookie": true,
         "url": {},
         "url_param": {},
         "form_param": {},
@@ -370,6 +352,8 @@
         }
       },
       "response": {
+        "enable_header": true,
+        "enable_cookie": true,
         "body": {
           "http:\\/\\/data.video.(i)?qiyi.com\\/videos\\/other\\/.*": ""
         },
