@@ -2,7 +2,10 @@
   "5b36788ee0e42": {
     "desc": "script_redirect",
     "host": null,
-    "method": ["get", "post"],
+    "method": [
+      "get", 
+      "post"
+    ],
     "handle": {
       "request": {
         "check_hostname": false,
