@@ -23,6 +23,7 @@
         }
       },
       "response": {
+        "allow_error": true,
         "enable_header": true,
         "enable_cookie": true,
         "body": {},
@@ -30,10 +31,8 @@
         "cookie": {},
         "header": {
           "Connection": null,
-          "Status-Line": null,
           "Transfer-Encoding": null,
-          "Content-Length": null,
-          "Access-Control-Allow-Origin": "*"
+          "Content-Length": null
         }
       }
     }
@@ -61,12 +60,12 @@
         "body_patch": {},
         "cookie": {},
         "header": {
-          "X-Forwarded-For": "60.30.20.10, 60.30.20.11",
           "Cookie": null,
           "Host": null
         }
       },
       "response": {
+        "allow_error": true,
         "enable_header": true,
         "enable_cookie": true,
         "body": {
@@ -76,7 +75,6 @@
         "cookie": {},
         "header": {
           "Connection": null,
-          "Status-Line": null,
           "Transfer-Encoding": null,
           "Content-Length": null
         }
@@ -110,6 +108,7 @@
         }
       },
       "response": {
+        "allow_error": true,
         "enable_header": true,
         "enable_cookie": true,
         "body": {
@@ -119,7 +118,6 @@
         "cookie": {},
         "header": {
           "Connection": null,
-          "Status-Line": null,
           "Transfer-Encoding": null,
           "Content-Length": null
         }
@@ -155,6 +153,7 @@
         }
       },
       "response": {
+        "allow_error": true,
         "enable_header": true,
         "enable_cookie": true,
         "body": {},
@@ -162,7 +161,6 @@
         "cookie": {},
         "header": {
           "Connection": null,
-          "Status-Line": null,
           "Transfer-Encoding": null,
           "Content-Length": null
         }
@@ -180,7 +178,7 @@
       "request": {
         "check_hostname": true,
         "check_method": true,
-        "fix_urlencode": false,
+        "fix_urlencode": true,
         "enable_header": true,
         "enable_cookie": true,
         "url": {
@@ -200,6 +198,7 @@
         }
       },
       "response": {
+        "allow_error": true,
         "enable_header": true,
         "enable_cookie": true,
         "body": {
@@ -227,7 +226,6 @@
         "cookie": {},
         "header": {
           "Connection": null,
-          "Status-Line": null,
           "Transfer-Encoding": null,
           "Content-Length": null
         }
@@ -264,6 +262,7 @@
         }
       },
       "response": {
+        "allow_error": true,
         "enable_header": true,
         "enable_cookie": true,
         "body": {
@@ -274,7 +273,6 @@
         "header": {
           "Access-Control-Allow-Origin": "*",
           "Connection": null,
-          "Status-Line": null,
           "Transfer-Encoding": null,
           "Content-Length": null
         }
@@ -309,6 +307,7 @@
         }
       },
       "response": {
+        "allow_error": true,
         "enable_header": true,
         "enable_cookie": true,
         "body": {
@@ -319,10 +318,8 @@
         "header": {
           "Access-Control-Allow-Origin": "*",
           "Connection": null,
-          "Status-Line": null,
           "Transfer-Encoding": null,
-          "Content-Length": null,
-          "Access-Control-Allow-Origin": "*"
+          "Content-Length": null
         }
       }
     }
@@ -354,6 +351,7 @@
         }
       },
       "response": {
+        "allow_error": true,
         "enable_header": true,
         "enable_cookie": true,
         "body": {
@@ -362,10 +360,8 @@
         "body_patch": {},
         "cookie": {},
         "header": {
-          "Content-Type": "text/plain",
           "Connection": null,
           "Content-Encoding": null,
-          "Status-Line": null,
           "Transfer-Encoding": null,
           "Content-Length": null
         }
