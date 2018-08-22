@@ -27,7 +27,9 @@
         "allow_error": true,
         "enable_header": true,
         "enable_cookie": true,
-        "body": {},
+        "body": {
+          "(href=\"https:\\/\\/)": "$1nyhidden.herokuapp.com/kaleido/5b36788ee0e42/https://"
+        },
         "body_patch": {},
         "cookie": {},
         "header": {
