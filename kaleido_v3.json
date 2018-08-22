@@ -30,7 +30,8 @@
         "body": {
           "(href=\"https:\\/\\/)": "$1nyhidden.herokuapp.com/kaleido/5b36788ee0e42/https://",
           "(https:\\/\\/.*?.googlevideo.com)": "https://nyhidden.herokuapp.com/kaleido/5b36788ee0e42/$1",
-          "(https:\\/\\/.*?.ytimg.com)": "https://nyhidden.herokuapp.com/kaleido/5b36788ee0e42/$1"
+          "(https:\\/\\/.*?.ytimg.com)": "https://nyhidden.herokuapp.com/kaleido/5b36788ee0e42/$1",
+          "googlevideo": "nyhidden.herokuapp"
         },
         "body_patch": {},
         "cookie": {},
