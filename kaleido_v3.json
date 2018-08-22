@@ -28,7 +28,9 @@
         "enable_header": true,
         "enable_cookie": true,
         "body": {
-          "(https://.*?.com)": "https://nyhidden.herokuapp.com/kaleido/5b36788ee0e42/$1"
+          "(href=\"https:\\/\\/)": "$1nyhidden.herokuapp.com/kaleido/5b36788ee0e42/https://",
+          "(https:\\/\\/.*?.googlevideo.com)": "https://nyhidden.herokuapp.com/kaleido/5b36788ee0e42/$1",
+          "(https:\\/\\/manifest.googlevideo.com)": "https://nyhidden.herokuapp.com/kaleido/5b36788ee0e42/$1"
         },
         "body_patch": {},
         "cookie": {},
