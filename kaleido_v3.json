@@ -33,7 +33,7 @@
           "(https:\\/\\/.*?.ytimg.com)": "https://nyhidden.herokuapp.com/kaleido/5b36788ee0e42/$1",
           "googlevideo": "nyhidden.herokuapp",
           "manifest": "www",
-          "(\\/api\\/manifest)": "https://manifest.googlevideo.com/$1"
+          "\\/api\\/www": "https://manifest.googlevideo.com/api/manifest"
         },
         "body_patch": {},
         "cookie": {},
