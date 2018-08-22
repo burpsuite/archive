@@ -33,7 +33,8 @@
         "header": {
           "Connection": null,
           "Transfer-Encoding": null,
-          "Content-Length": null
+          "Content-Length": null,
+          "Access-Control-Allow-Origin": "*"
         }
       }
     }
